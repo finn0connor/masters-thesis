@@ -1,0 +1,41 @@
+[project]
+name = "imbalance-sa"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Finn O'Connor", email = "foconno1@tcd.ie" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "lightgbm>=4.7.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "openturns>=1.27.post1",
+    "pandas>=2.3.3",
+    "pyarrow>=25.0.1",
+    "pyextremes>=2.5.0",
+    "python-dotenv>=1.2.4",
+    "pyvinecopulib>=1.0.1",
+    "pyyaml>=6.0.3",
+    "salib>=1.6.0",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "statsmodels>=0.15.0",
+    "xgboost>=3.4.1",
+]
+
+[project.scripts]
+imbalance-sa = "imbalance_sa:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "nbstripout>=0.9.1",
+    "pytest>=9.1.1",
+    "ruff>=0.16.10",
+]
