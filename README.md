@@ -54,8 +54,11 @@ imbalance-sa/
 ├── notebooks/                 Numbered exploratory notebooks (NN_description.ipynb)
 │   └── 01_initial_brainstorming.ipynb   Problem framing and project structure
 │
-├── notes/                     Written research notes and planning
-│   └── 01_brainstorming.md    Initial ideas and scope
+├── notes/                     Research notes and planning (Markdown)
+│   ├── 01_brainstorming.md    Initial ideas and scope
+│   ├── literature/            One note per paper, named by its citation key
+│   ├── meetings/              Supervisor meeting notes
+│   └── attachments/           Images embedded in notes
 │
 ├── config/                    YAML configuration files for experiments
 ├── data/                      Local data only — not version-controlled
