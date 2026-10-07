@@ -36,6 +36,7 @@ build-backend = "uv_build"
 dev = [
     "ipykernel>=7.4.0",
     "nbstripout>=0.9.1",
+    "pymupdf>=1.26",
     "pytest>=9.1.1",
     "ruff>=0.16.10",
 ]
