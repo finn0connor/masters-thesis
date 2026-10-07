@@ -1,4 +1,4 @@
-# imbalance-sa
+# masters-thesis
 
 **Sensitivity Analysis of Rare Events in Engineering Systems**
 MAI Thesis — Mechanical & Manufacturing Engineering, Trinity College Dublin
@@ -33,7 +33,7 @@ NIV is treated as the primary engineering variable and the imbalance price as it
 ## Repository structure
 
 ```
-imbalance-sa/
+masters-thesis/
 ├── README.md                  Project overview and file guide (this file)
 ├── pyproject.toml             Package metadata and dependencies (managed with uv)
 ├── uv.lock                    Locked dependency versions for reproducibility
