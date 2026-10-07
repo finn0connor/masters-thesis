@@ -51,6 +51,9 @@ masters-thesis/
 │   ├── rare_events/           Extreme value analysis, importance sampling, subset simulation
 │   └── evaluation/            Forecast scoring, backtesting and tail-risk metrics
 │
+├── scripts/                   Runnable scripts that execute the pipeline (data pulls, model training, analyses)
+│   └── 00_check_environment.py  Verifies the environment and package import
+│
 ├── notebooks/                 Numbered exploratory notebooks (NN_description.ipynb)
 │   └── 01_initial_brainstorming.ipynb   Problem framing and project structure
 │
@@ -71,6 +74,7 @@ masters-thesis/
 │   ├── raw/                   Data as extracted from source systems
 │   └── processed/             Cleaned, aligned datasets ready for modelling
 ├── figures/                   Figures generated for the thesis
+├── results/                   Model outputs, metrics and tables (local only, not version-controlled)
 └── tests/                     Unit tests (pytest)
 ```
 
@@ -94,7 +98,8 @@ To use the environment in Jupyter, select the `.venv` interpreter as the noteboo
 
 ## Conventions
 
-- Reusable code lives in `src/imbalance_sa/`; notebooks import from it rather than defining core logic.
+- Functions and classes are defined in `src/imbalance_sa/`. Scripts in `scripts/` and notebooks in `notebooks/` import and run them rather than defining core logic themselves.
+- Scripts are numbered in the order they are run and executed from the repository root, e.g. `uv run python scripts/00_check_environment.py`.
 - Timestamps are stored in UTC; imbalance settlement periods are 30 minutes.
 - Models are validated with time-ordered (rolling-origin) backtests — never random splits — and features use only information available at forecast time.
 - Notebook outputs are stripped automatically before commit.
