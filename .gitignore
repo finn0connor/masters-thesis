@@ -1,0 +1,31 @@
+# --- Environment ---
+.venv/
+.env
+.env.*
+!.env.example
+
+# --- Data: ElectroRoute / market data never goes to GitHub ---
+data/**
+!data/**/
+!data/**/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# --- Notebooks / editors / OS ---
+.ipynb_checkpoints/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# --- Large model artefacts ---
+models/
+*.pkl
+*.joblib

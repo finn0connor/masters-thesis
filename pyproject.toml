@@ -1,7 +1,7 @@
 [project]
 name = "imbalance-sa"
 version = "0.1.0"
-description = "Add your description here"
+description = "Forecasting and rare-event sensitivity analysis of Irish electricity imbalance volume (NIV) and imbalance prices"
 readme = "README.md"
 authors = [
     { name = "Finn O'Connor", email = "foconno1@tcd.ie" }
