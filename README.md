@@ -57,7 +57,13 @@ imbalance-sa/
 ├── notes/                     Research notes and planning (Markdown)
 │   ├── 01_brainstorming.md    Initial ideas and scope
 │   ├── literature/            One note per paper, named by its citation key
+│   ├── concepts/              Methods and theory explained (e.g. Sobol indices, GPD)
+│   ├── datasets/              Documentation of each data source and its fields
+│   ├── experiments/           Log of each modelling experiment and its results
+│   ├── ideas/                 Research ideas and whether they were pursued
+│   ├── drafts/                Chapter outlines and draft text
 │   ├── meetings/              Supervisor meeting notes
+│   ├── weekly/                Weekly progress reviews
 │   └── attachments/           Images embedded in notes
 │
 ├── config/                    YAML configuration files for experiments
