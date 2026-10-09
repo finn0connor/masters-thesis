@@ -1,3 +1,56 @@
+@article{goda2021,
+  title = {A Simple Algorithm for Global Sensitivity Analysis with {{Shapley}} Effects},
+  author = {Goda, Takashi},
+  year = 2021,
+  month = sep,
+  journal = {Reliability Engineering \& System Safety},
+  volume = {213},
+  pages = {107702},
+  issn = {0951-8320},
+  doi = {10.1016/j.ress.2021.107702},
+  urldate = {2026-10-07},
+  abstract = {Global sensitivity analysis aims at measuring the relative importance of different variables or groups of variables for the variability of a quantity of interest. Among several sensitivity indices, so-called Shapley effects have recently gained popularity mainly because the Shapley effects for all the individual variables are summed up to the overall variance, which gives a better interpretability than the classical sensitivity indices called main effects and total effects. In this paper, assuming that all the input variables are independent, we introduce a quite simple Monte Carlo algorithm to estimate the Shapley effects for all the individual variables simultaneously, which drastically simplifies the existing algorithms proposed in the literature. We present a short Matlab implementation of our algorithm and show some numerical results. A possible extension to the case where the input variables are dependent is also discussed.},
+  keywords = {Global sensitivity analysis,Monte Carlo methods,Shapley effect},
+  file = {C\:\\Users\\finno\\Zotero\\storage\\HDPBAHSF\\Goda - 2021 - A simple algorithm for global sensitivity analysis with Shapley effects.pdf;C\:\\Users\\finno\\Zotero\\storage\\5BLRYUKU\\S0951832021002374.html}
+}
+
+@article{lago2021,
+  title = {Forecasting Day-Ahead Electricity Prices: {{A}} Review of State-of-the-Art Algorithms, Best Practices and an Open-Access Benchmark},
+  shorttitle = {Forecasting Day-Ahead Electricity Prices},
+  author = {Lago, Jesus and Marcjasz, Grzegorz and De Schutter, Bart and Weron, Rafa{\l}},
+  year = 2021,
+  month = jul,
+  journal = {Applied Energy},
+  volume = {293},
+  pages = {116983},
+  issn = {0306-2619},
+  doi = {10.1016/j.apenergy.2021.116983},
+  urldate = {2026-10-09},
+  abstract = {While the field of electricity price forecasting has benefited from plenty of contributions in the last two decades, it arguably lacks a rigorous approach to evaluating new predictive algorithms. The latter are often compared using unique, not publicly available datasets and across too short and limited to one market test samples. The proposed new methods are rarely benchmarked against well established and well performing simpler models, the accuracy metrics are sometimes inadequate and testing the significance of differences in predictive performance is seldom conducted. Consequently, it is not clear which methods perform well nor what are the best practices when forecasting electricity prices. In this paper, we tackle these issues by comparing state-of-the-art statistical and deep learning methods across multiple years and markets, and by putting forward a set of best practices. In addition, we make available the considered datasets, forecasts of the state-of-the-art models, and a specifically designed python toolbox, so that new algorithms can be rigorously evaluated in future studies.},
+  keywords = {Best practices,Deep learning,Electricity price forecasting,Forecast evaluation,Open-access benchmark,Regression model},
+  file = {C\:\\Users\\finno\\Zotero\\storage\\ACCA5ZYW\\Lago et al. - 2021 - Forecasting day-ahead electricity prices A review of state-of-the-art algorithms, best practices an.pdf;C\:\\Users\\finno\\Zotero\\storage\\YVVA3GWL\\S0306261921004529.html}
+}
+
+@article{lucas2020,
+  title = {Price {{Forecasting}} for the {{Balancing Energy Market Using Machine-Learning Regression}}},
+  author = {Lucas, Alexandre and Pegios, Konstantinos and Kotsakis, Evangelos and Clarke, Dan},
+  year = 2020,
+  month = jan,
+  journal = {Energies},
+  volume = {13},
+  number = {20},
+  pages = {5420},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+  issn = {1996-1073},
+  doi = {10.3390/en13205420},
+  urldate = {2026-10-07},
+  abstract = {The importance of price forecasting has gained attention over the last few years, with the growth of aggregators and the general opening of the European electricity markets. Market participants manage a tradeoff between, bidding in a lower price market (day-ahead), but with typically higher volume, or aiming for a lower volume market but with potentially higher returns (balance energy market). Companies try to forecast the extremes of revenues or prices, in order to manage risk and opportunity, assigning their assets in an optimal way. It is thought that in general, electricity markets have quasi-deterministic principles, rather than being based on speculation, hence the desire to forecast the price based on variables that can describe the outcome of the market. Many studies address this problem from a statistical approach or by performing multiple-variable regressions, but they very often focus only on the time series analysis. In 2019, the Loss of Load Probability (LOLP) was made available in the UK for the first time. Taking this opportunity, this study focusses on five LOLP variables (with different time-ahead estimations) and other quasi-deterministic variables, to explain the price behavior of a multi-variable regression model. These include base production, system load, solar and wind generation, seasonality, day-ahead price and imbalance volume contributions. Three machine-learning algorithms were applied to test for performance, Gradient Boosting (GB), Random Forest (RF) and XGBoost. XGBoost presented higher performance and so it was chosen for the implementation of the real time forecast step. The model returns a Mean Absolute Error (MAE) of 7.89 \pounds/MWh, a coefficient of determination (R2 score) of 76.8\% and a Mean Squared Error (MSE) of 124.74. The variables that contribute the most to the model are the Net Imbalance Volume, the LOLP (aggregated), the month and the De-rated margins (aggregated) with 28.6\%, 27.5\%, 14.0\%, and 8.9\% of weight on feature importance respectively.},
+  copyright = {http://creativecommons.org/licenses/by/3.0/},
+  langid = {english},
+  keywords = {balance energy market,demand response,imbalance market,loss of load probability,machine learning,price forecast},
+  file = {C:\Users\finno\Zotero\storage\TELYLN57\Lucas et al. - 2020 - Price Forecasting for the Balancing Energy Market Using Machine-Learning Regression.pdf}
+}
+
 @article{narajewski2022,
   title = {Probabilistic {{Forecasting}} of {{German Electricity Imbalance Prices}}},
   author = {Narajewski, Micha{\l}},
@@ -32,6 +85,22 @@
   abstract = {Engineering models are becoming increasingly complex, involving a larger number of variables. As a result, engineers struggle to deeply understand the models and therefore validate and properly use them. Sensitivity analyses (SA) are usually conducted to help with this task. Nonetheless, the knowledge and computational efforts required to conduct SA increases with the complexity of the model. This paper presents a conceptually simple method to conduct the SA of extreme-based engineering problems, that is, those problems whose outcome of interest is their maximum or minimum values. This type of problems is of relevance for reliability-based design. The method requires to iteratively maximize or minimize the model by fixing one input factor at each time. Then, the variation of the optimal surface is evaluated. The method permits the visualization and measure of the input factors' influence on the extreme model response, with no need of defining the probability distribution of the input factors. Both the easiness of application and interpretation, along with a low computational cost for problems dealing with extreme values, make the proposed method very convenient to practitioners.},
   keywords = {Global methods,Importance measure,Local methods,Optimization,Reliability analysis,Visualization},
   file = {C\:\\Users\\finno\\Zotero\\storage\\IDDPYGG4\\Nogal and Nogal - 2021 - Sensitivity method for extreme-based engineering problems.pdf;C\:\\Users\\finno\\Zotero\\storage\\ZJA6KNJZ\\S095183202100507X.html}
+}
+
+@article{oconnor2024,
+  title = {Electricity {{Price Forecasting}} in the {{Irish Balancing Market}}},
+  author = {O'Connor, Ciaran and Collins, Joseph and Prestwich, Steven and Visentin, Andrea},
+  year = 2024,
+  month = jul,
+  journal = {Energy Strategy Reviews},
+  volume = {54},
+  pages = {101436},
+  issn = {2211-467X},
+  doi = {10.1016/j.esr.2024.101436},
+  urldate = {2026-10-07},
+  abstract = {Short-term electricity markets are becoming more relevant due to less-predictable renewable energy sources, attracting considerable attention from the industry. The balancing market is the closest to real-time and the most volatile among them. Its price forecasting literature is limited, inconsistent and outdated, with few deep learning attempts and no public dataset. This work applies to the Irish balancing market a variety of price prediction techniques proven successful in the widely studied day-ahead market. We compare statistical, machine learning, and deep learning models using a framework that investigates the impact of different training sizes. The framework defines hyperparameters and calibration settings; the dataset and models are made public to ensure reproducibility and to be used as benchmarks for future works. An extensive numerical study shows that well-performing models in the day-ahead market do not perform well in the balancing one, highlighting that these markets are fundamentally different constructs. The best model is LEAR, a statistical approach based on LASSO, achieving a mean absolute error of 32.82 \texteuro/MWh, surpassing more complex and computationally demanding approaches with errors ranging from 33.71 \texteuro/MWh to 44.55 \texteuro/MWh.},
+  keywords = {Balance market,Day-ahead market,Deep learning,Electricity Price Forecasting,Machine learning},
+  file = {C\:\\Users\\finno\\Zotero\\storage\\MGF5TTY2\\O’Connor et al. - 2024 - Electricity Price Forecasting in the Irish Balancing Market.pdf;C\:\\Users\\finno\\Zotero\\storage\\RSQ8Z2LP\\S2211467X24001433.html}
 }
 
 @article{plakas2025,
@@ -95,4 +164,22 @@
   abstract = {The power industry has experienced increased complexity and significant transformations in recent years due to the increasing penetration of Renewable Energy Sources (RESs). The rising penetration of RESs like solar and wind results in higher generation volatility. Such high-generation volatility necessitates significant efforts in grid balancing. Therefore, the Balancing Market (BM) is introduced in various power systems. The objective of the BM is to minimize the difference between the load and generation in real-time. BM has received wide research attention as it helps to improve system stability and reduce balancing costs. Further, the optimal operation of BM necessitates accurate imbalance volume and price forecasts. This has invited system operators' and researchers' attention to imbalance volume and price forecasting. However, a few research reviews are only available on BM, and no review exists on imbalance forecasting. A detailed review can help the system operators and researchers develop efficient BMs and accurate imbalance forecasting models. Therefore, this paper reviews BMs in various countries, BM products, BM operations, and imbalance (volume and price) forecasting. Also, this review analyses the most critical issues and challenges associated with BMs and imbalance forecasting. The review concludes that identified research challenges should be addressed promptly to ensure the optimal operation of the BM and achieve net-zero targets.},
   keywords = {Balancing markets,Imbalance price,Imbalance volume,Net-zero,Power system stability,Renewable energy},
   file = {C\:\\Users\\finno\\Zotero\\storage\\R66NIBIR\\Singh et al. - 2026 - Balancing markets and imbalance forecasting A pathway towards net zero grids.pdf;C\:\\Users\\finno\\Zotero\\storage\\UL5W9QM6\\S0306261925017064.html}
+}
+
+@article{weron2014,
+  title = {Electricity Price Forecasting: {{A}} Review of the State-of-the-Art with a Look into the Future},
+  shorttitle = {Electricity Price Forecasting},
+  author = {Weron, Rafa{\l}},
+  year = 2014,
+  month = oct,
+  journal = {International Journal of Forecasting},
+  volume = {30},
+  number = {4},
+  pages = {1030--1081},
+  issn = {0169-2070},
+  doi = {10.1016/j.ijforecast.2014.08.008},
+  urldate = {2026-10-07},
+  abstract = {A variety of methods and ideas have been tried for electricity price forecasting (EPF) over the last 15 years, with varying degrees of success. This review article aims to explain the complexity of available solutions, their strengths and weaknesses, and the opportunities and threats that the forecasting tools offer or that may be encountered. The paper also looks ahead and speculates on the directions EPF will or should take in the next decade or so. In particular, it postulates the need for objective comparative EPF studies involving (i) the same datasets, (ii) the same robust error evaluation procedures, and (iii) statistical testing of the significance of one model's outperformance of another.},
+  keywords = {Autoregression,Day-ahead market,Electricity price forecasting,Factor model,Forecast combination,Neural network,Probabilistic forecast,Seasonality},
+  file = {C\:\\Users\\finno\\Zotero\\storage\\F3SBR8BP\\Weron - 2014 - Electricity price forecasting A review of the state-of-the-art with a look into the future.pdf;C\:\\Users\\finno\\Zotero\\storage\\Q96ELKQM\\S0169207014001083.html}
 }
