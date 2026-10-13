@@ -164,21 +164,3 @@ Both $g_1$ and $g_2$ are fitted with a common set of model families, so that the
 2. A decomposition of price forecast uncertainty into NIV uncertainty and price model uncertainty.
 3. A comparison of the drivers of average and extreme price behaviour, and of how these depend on the severity threshold.
 4. An assessment of how robust data-driven sensitivity analysis is to the choice of model, applied to a non-smooth system with dependent inputs.
-
-## 7. Scope
-
-| Level | Content |
-|---|---|
-| Core | Stages 1–4: data, NIV and price models (at least three model families), price forecast, global SA and uncertainty budget |
-| Core | Stage 5: extreme and threshold SA |
-| Extension | Stage 6: rare-event probability; Stage 7 with all five model families and modelling choices as factors |
-
-## 8. Risks and Mitigation
-
-| Risk                                                                  | Mitigation                                                                                                                                                       |
-| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Historical forecasts not available as originally issued               | Confirm early; use a shorter period if needed                                                                                                                    |
-| NIV is hard to forecast in advance                                    | The price model and sensitivity analysis remain valid with wide NIV distributions; quantify how much a better NIV forecast would help via the uncertainty budget |
-| Price model inaccurate for extreme NIV values                         | Validate tail accuracy explicitly; model price relative to the day-ahead price; use extreme value theory to support conclusions                                  |
-| Gaussian processes and neural networks too costly on the full dataset | Subsample, use sparse approximations, or limit to three model families                                                                                           |
-| Market changes over the data period                                   | Include indicators for structural changes; check results on sub-periods                                                                                          |
