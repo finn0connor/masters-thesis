@@ -4,11 +4,6 @@
 .env.*
 !.env.example
 
-# --- Data: ElectroRoute / market data never goes to GitHub ---
-data/**
-!data/**/
-!data/**/.gitkeep
-
 # --- Python ---
 __pycache__/
 *.py[cod]
