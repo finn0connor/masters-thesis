@@ -1,4 +1,4 @@
-time_UTC,"ISEM Wind Generation (MW)"
+time_utc,"ISEM Wind Generation (MW)"
 "2018-10-01 00:00:00",624.00000
 "2018-10-01 00:15:00",603.00000
 "2018-10-01 00:30:00",608.00000

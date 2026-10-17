@@ -34,23 +34,23 @@ Calendar variables (time of day, season, holidays) are deterministic. They are t
 | Clock-change and holiday-adjacent days | Unusual demand days | $g_1$ | ex-ante | Low |
 
 ### 2.2 Renewable generation
-| Variable | Description | Model | Timing | Expected |
-|---|---|---|---|---|
-| System-wide wind generation (actual) | Metered wind output | $g_1$ | ex-post (lagged only) | High |
-| Irish wind forecast | Latest forecast before the forecast time | $g_1$, $g_2$ | ex-ante | High |
-| Wind forecast uncertainty | Spread between high and low wind scenarios | $g_1$ | ex-ante | High |
-| Wind forecast change since day-ahead | Latest forecast minus forecast at the day-ahead auction | $g_1$ | ex-ante | **Very high** |
-| Wind forecast change since each intraday auction | Change since IDA1, IDA2, IDA3 | $g_1$ | ex-ante | **Very high** |
-| Wind forecast error, recent periods | Actual minus forecast in previous periods | $g_1$ | lagged | High |
-| Wind ramp rate | Forecast change in wind output over the next hours | $g_1$ | ex-ante | Medium |
-| Wind cleared vs forecast | Wind volume sold at day-ahead compared with its forecast | $g_1$ | ex-ante | High |
-| Wind dispatch-down / curtailment | Wind reduced by the system operator | $g_1$, $g_2$ | lagged | Medium |
-| System-wide solar generation (actual) | Metered solar output | $g_1$ | ex-post (lagged only) | Low–Medium |
-| Irish solar forecast | Latest forecast | $g_1$ | ex-ante | Low–Medium |
-| Solar forecast change since day-ahead | As for wind | $g_1$ | ex-ante | Medium (rising) |
-| GB wind and solar forecasts | British renewable output | $g_2$ | ex-ante | Medium |
-| GB wind and solar forecast changes | Change since day-ahead | $g_2$ | ex-ante | Low–Medium |
-| Installed wind and solar capacity | Structural trend over the eight years | $g_1$, $g_2$ | ex-ante | Medium |
+| Variable                                         | Description                                              | Model        | Timing                | Expected        |
+| ------------------------------------------------ | -------------------------------------------------------- | ------------ | --------------------- | --------------- |
+| System-wide wind generation (actual)             | Metered wind output                                      | $g_1$        | ex-post (lagged only) | High            |
+| Irish wind forecast                              | Latest forecast before the forecast time                 | $g_1$, $g_2$ | ex-ante               | High            |
+| Wind forecast uncertainty                        | Spread between high and low wind scenarios               | $g_1$        | ex-ante               | High            |
+| Wind forecast change since day-ahead             | Latest forecast minus forecast at the day-ahead auction  | $g_1$        | ex-ante               | **Very high**   |
+| Wind forecast change since each intraday auction | Change since IDA1, IDA2, IDA3                            | $g_1$        | ex-ante               | **Very high**   |
+| Wind forecast error, recent periods              | Actual minus forecast in previous periods                | $g_1$        | lagged                | High            |
+| Wind ramp rate                                   | Forecast change in wind output over the next hours       | $g_1$        | ex-ante               | Medium          |
+| Wind cleared vs forecast                         | Wind volume sold at day-ahead compared with its forecast | $g_1$        | ex-ante               | High            |
+| Wind dispatch-down / curtailment                 | Wind reduced by the system operator                      | $g_1$, $g_2$ | lagged                | Medium          |
+| System-wide solar generation (actual)            | Metered solar output                                     | $g_1$        | ex-post (lagged only) | Low–Medium      |
+| Irish solar forecast                             | Latest forecast                                          | $g_1$        | ex-ante               | Low–Medium      |
+| Solar forecast change since day-ahead            | As for wind                                              | $g_1$        | ex-ante               | Medium (rising) |
+| GB wind and solar forecasts                      | British renewable output                                 | $g_2$        | ex-ante               | Medium          |
+| GB wind and solar forecast changes               | Change since day-ahead                                   | $g_2$        | ex-ante               | Low–Medium      |
+| Installed wind and solar capacity                | Structural trend over the eight years                    | $g_1$, $g_2$ | ex-ante               | Medium          |
 
 ### 2.3 Demand
 | Variable | Description | Model | Timing | Expected |
