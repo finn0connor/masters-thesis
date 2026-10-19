@@ -1,0 +1,3 @@
+file,rows,start,end,freq,n_dupe_ts,n_missing,pct_missing,n_gaps,largest_gap,nan_cols,note
+IE_NIV_Actual_MW.csv,139757,2018-10-01,2026-09-30 23:30:00,0 days 00:30:00,15,514,0.366,116,2026-05-11 20:00 -> 2026-05-12 10:00 (29),,
+IE_PIMB_Actual_EUR.csv,139757,2018-10-01,2026-09-30 23:30:00,0 days 00:30:00,15,514,0.366,116,2026-05-11 20:00 -> 2026-05-12 10:00 (29),,
