@@ -8,7 +8,8 @@ tags: [idea]
 
 > [!summary] Proposal
 > - Use the bid/offer data to construct the stack and then use machine learning to try and predict which units are going to bid into the market.
-> - 
+> - MOD_02_21 went live on January 26th 2022, therefore I will just use data that goes this far back to train models (should be more than sufficient).
+> - https://www.sem-o.com/sites/semo/files/documents/market-modifications/Mod_16_21/Mod_16_21TemporaryuseoftheMarketBackupPricewhereanInterconnectorTradeQuantityandPricearesubmitted.pdf
 > 
 
 > [!summary] Trading Strategy Structure
