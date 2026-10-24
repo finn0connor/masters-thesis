@@ -6,7 +6,7 @@ Run from the repository root:
 
 from importlib.metadata import version
 
-import imbalance_sa
+import masters_thesis
 
 PACKAGES = [
     "numpy",
@@ -24,7 +24,7 @@ PACKAGES = [
 
 
 def main() -> None:
-    print(f"imbalance_sa imported from: {imbalance_sa.__file__}")
+    print(f"masters_thesis imported from: {masters_thesis.__file__}")
     for name in PACKAGES:
         print(f"{name:<15} {version(name)}")
 
