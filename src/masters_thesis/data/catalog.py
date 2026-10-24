@@ -1,6 +1,6 @@
 """Every CSV in data/ as a named DataFrame, found automatically.
 
-    from imbalance_sa.data.catalog import data
+    from masters_thesis.data.catalog import data
 
     data.ie_niv_actual_mw          # DataFrame, loaded on first use
     data.ie_da_mcv_wind_mw
@@ -25,8 +25,8 @@ from pathlib import Path
 
 import pandas as pd
 
-from imbalance_sa.data.timezone import to_irish_time
-from imbalance_sa.paths import PROJECT_ROOT
+from masters_thesis.data_functions.timezone import to_irish_time
+from masters_thesis.paths import PROJECT_ROOT
 
 DATA_DIR = PROJECT_ROOT / "data"
 _TIME_COLS = ("time_utc", "cutoff_utc", "tick_utc")

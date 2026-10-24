@@ -1,5 +1,5 @@
 [project]
-name = "imbalance-sa"
+name = "masters-thesis"
 version = "0.1.0"
 description = "Forecasting and rare-event sensitivity analysis of Irish electricity imbalance volume (NIV) and imbalance prices"
 readme = "README.md"
@@ -27,7 +27,7 @@ dependencies = [
 ]
 
 [project.scripts]
-imbalance-sa = "imbalance_sa:main"
+masters-thesis = "masters_thesis:main"
 
 [build-system]
 requires = ["uv_build>=0.12.23,<0.13.0"]
