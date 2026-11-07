@@ -25,7 +25,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from masters_thesis.data_functions.timezone import to_irish_time
+from masters_thesis.data.timezone import to_irish_time
 from masters_thesis.paths import PROJECT_ROOT
 
 DATA_DIR = PROJECT_ROOT / "data"
